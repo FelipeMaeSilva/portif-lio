@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    margin: 0%;
+    grid-template-rows: 1fr 6.7fr;
+    grid-template-areas: "header"
+    "main";
+}
+header{
+    grid-area: "header";
+    text-align: right;
+    background-color: rgb(253, 232, 175);
+    height: 100px;
+}
+main{
+    grid-area: "main";
+    border: solid;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+#perfil{
+    height: 100px;
+    width: 80px;
+}
+#imagem{
+    text-align: center;
+    margin-top: 35%;
+}
